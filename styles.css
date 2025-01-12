@@ -1,0 +1,86 @@
+:root {
+    --color1: #b19798;
+    --color2: #818eb8;
+    --color3: #c6a37d;
+    --color4: #360f24;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d9e2b4;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--color4);
+    margin: 0;
+    padding: 0;}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 1rem 0 0 0;
+    box-sizing: border-box;
+    }
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 10rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.color1 {
+    background-color: var(--color1);
+}
+
+.color2 {
+    background-color: var(--color2);
+}
+
+.color3 {
+    background-color: var(--color3);
+}
+
+.color4 {
+    background-color: var(--color4);
+}
+
+.off {
+    opacity: 0.01;
+}
+
+p.text {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 1000;
+    text-align: center;
+    width: fit-content;
+}
+
+.emoji {
+    font-size: 2.5rem;
+    margin: 0;
+}
